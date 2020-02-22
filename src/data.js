@@ -1,4 +1,4 @@
-const users = [
+let users = [
     {
       id: 'AJD064',
       name: 'Aakash',
@@ -33,7 +33,7 @@ const users = [
     },
   ];
   
-  const posts = [
+  let posts = [
     {
       id: 'AJDK98',
       title: 'Test Post 1',
@@ -67,91 +67,6 @@ const users = [
       comments: ['C-1', 'C-0945', 'C-09452', 'C-09453', 'C-874512']
     },
   ];
-  
-  const comments = [
-    {
-      id: 'C-1',
-      text: 'Joey is a Rockstar 1',
-      author: 'AJD864',
-      post: 'AJDK98'
-    },
-    {
-      id: 'C-2',
-      text: 'Joey is a Rockstar 1',
-      author: 'AJD864',
-      post: 'AJDK9534',
-    },
-    {
-      id: 'C-3',
-      text: 'Joey is a Rockstar 1',
-      author: 'AJD864',
-      post: 'AJDK98u38',
-    },
-    {
-      id: 'C-0945',
-      text: 'Joey is a Rockstar 1',
-      author: 'AJD874',
-      post: 'AJDK98724c'
-    },
-    {
-      id: 'C-09452',
-      text: 'Joey is a Rockstar 2',
-      author: 'AJD874',
-      post: 'AJDK98724c'
-    },
-    {
-      id: 'C-09453',
-      text: 'Joey is a Rockstar 3',
-      author: 'AJD874',
-      post: 'AJDK98'
-    },
-  
-    {
-      id: 'C-874512',
-      text: 'Chandler is a Bae',
-      author: 'AJD064',
-      post: 'AJDK98'
-    },
-    {
-      id: 'C-874513',
-      text: 'Chandler is a Bae',
-      author: 'AJD064',
-    },
-    {
-      id: 'C-874514',
-      text: 'Chandler is a Bae',
-      author: 'AJD064',
-    },
-    {
-      id: 'C-992067',
-      text: 'Charlie wins ALL',
-      author: 'AJD862',
-      post: 'AJDK9534',
-    },
-    {
-      id: 'C-992068',
-      text: 'Charlie wins ALL',
-      author: 'AJD862',
-      post: 'AJDK9534',
-    },
-    {
-      id: 'C-992069',
-      text: 'Charlie wins ALL',
-      author: 'AJD862',
-      post: 'AJDK98u38',
-    },
-    {
-      id: 'C-99206',
-      text: 'Charlie wins ALL',
-      author: 'AJD862',
-      post: 'AJDK98u38',
-    },
-    {
-      id: 'C-996311',
-      text: 'Couldnt do it without Alan',
-      author: 'AJD862',
-      post: 'AJDK98u38',
-    },
-  ];
 
-  export {users, posts, comments};
+
+  export {users, posts};
